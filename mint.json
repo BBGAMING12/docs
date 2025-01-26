@@ -1,85 +1,50 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Documentation",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "https://shorturl.at/1bp5f",
+    "light": "https://shorturl.at/1bp5f",
+    "href" : "https://shorturl.at/1bp5f"
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#1a609a",
+    "light": "#1a609a",
+    "dark": "#1a609a",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#1a609a",
+      "to": "#1a609a"
     }
   },
-  "topbarLinks": [
-    {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
-    }
-  ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "In-Game Server",
+    "url": "https://policeroleplay.community/join/OGFlorida"
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "name": "Discord Community",
+      "icon": "discord",
+      "url": "https://discord.gg/fsrp"
     },
     {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "name": "Game Staff Application",
+      "icon": "pencil",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSf02vEF6mHls84QfUnxYlA7FbbNmHTnHjAvS-jCVwnAgMxPVA/viewform"
     }
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Introduction",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "introduction"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Guidelines",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
-      ]
-    },
-    {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "disco",
+        "roleplay",
+        "department"
       ]
     }
   ],
