@@ -1,36 +1,56 @@
----
-title: Welcome to FSRP!
-description: "Greetings member, Welcome to the Florida State Roleplay Community Guidelines! Here you will find rules regarding our discord and in-game server. "
----
-
-<img
-  className="block dark:hidden"
-  src="https://shorturl.at/3MwII"
-  alt="Hero Light"
-/>
-<img
-  className="hidden dark:block"
-  src="https://shorturl.at/3MwII"
-  alt="Hero Dark"
-/>
-
-
-## Quick Travel
-
-
-<CardGroup cols={2}>
-  <Card
-    title="Discord Guidelines"
-    icon="discord"
-    href="https://mintlify.com/docs/quickstart"
-  >
-    View our discord rules!
-  </Card>
-  <Card
-    title="Roleplay Regulations"
-    icon="cube"
-    href="https://mintlify.com/docs/development"
-  >
-    View our roleplay rules!
-  </Card>
-</CardGroup>
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Documentation",
+  "logo": {
+    "dark": "https://shorturl.at/1bp5f",
+    "light": "https://shorturl.at/1bp5f",
+    "href" : "https://shorturl.at/1bp5f"
+  },
+  "favicon": "https://shorturl.at/1bp5f",
+  "colors": {
+    "primary": "#1a609a",
+    "light": "#1a609a",
+    "dark": "#1a609a",
+    "anchors": {
+      "from": "#1a609a",
+      "to": "#1a609a"
+    }
+  },
+  "topbarCtaButton": {
+    "name": "In-Game Server",
+    "url": "https://policeroleplay.community/join/OGFlorida"
+  },
+  "anchors": [
+    {
+      "name": "Discord Community",
+      "icon": "discord",
+      "url": "https://discord.gg/fsrp"
+    },
+    {
+      "name": "Game Staff Application",
+      "icon": "pencil",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSf02vEF6mHls84QfUnxYlA7FbbNmHTnHjAvS-jCVwnAgMxPVA/viewform"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Introduction",
+      "pages": [
+        "introduction"
+      ]
+    },
+    {
+      "group": "Guidelines",
+      "pages": [
+        "disco",
+        "roleplay",
+        "department"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "x": "https://x.com/mintlify",
+    "github": "https://github.com/mintlify",
+    "linkedin": "https://linkedin.com/company/mintlify"
+  }
+}
